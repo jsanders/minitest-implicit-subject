@@ -19,6 +19,8 @@ Or install it yourself as:
 ## Usage
 
 ```ruby
+require 'minitest/implicit/subject'
+
 describe Object do
   it 'defines the subject implicitly' do
     subject.must_equal Object
